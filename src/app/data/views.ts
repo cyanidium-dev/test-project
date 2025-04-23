@@ -1,4 +1,13 @@
-import { Item } from "../components/share/carousel/Carousel";
+// import { Item } from "../components/share/carousel/Carousel";
+
+type Item = {
+  id: string;
+  imgSrc: string;
+  name: string;
+  subtitle: string;
+  task: string;
+  description: string;
+}
 
 export const items: Item[] = [
   {
