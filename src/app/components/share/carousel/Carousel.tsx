@@ -37,7 +37,7 @@ function Carousel() {
           dragElastic={0.1}
           dragTransition={{ bounceDamping: 30, power: 0.5 }}
           whileTap={{ cursor: 'grabbing' }}
-          className="flex gap-4 cursor-grab will-change-transform pb-4"
+          className="flex cursor-grab will-change-transform pb-4"
         >
           {items.map((item) => (
             <motion.div

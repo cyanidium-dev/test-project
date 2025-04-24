@@ -3,5 +3,5 @@ export type SliderItemProps = {
     name: string;
     position: string;
     task: string;
-    review: string;
+    review: string | undefined;
 };

@@ -6,7 +6,7 @@ import PortfolioUlList from "@/app/components/share/portfolio-nav-list/Portfolio
 const Portfolio = () => {
     return (
         <section className="px-[32px] md:px-[100px]">
-            <div className="md:flex md:items-center md:justify-between mb-8 content-center">
+            <div className="md:flex md:items-center md:justify-between mb-8">
                 <SectionTitle name={'Наше портфоліо'} />
                 <div className="hidden md:block">
                     <PortfolioButton name={"Переглянути Більше"} />
