@@ -5,3 +5,30 @@ body {
   max-width: 1492px;
   margin: 0 auto;
 }
+
+
+@layer base {
+  .font-actay-regular {
+    font-family: var(--font-actay-regular);
+  }
+  
+  .font-actay-regular-italic {
+    font-family: var(--font-actay-regular-italic);
+  }
+  
+  .font-actay-condensed-thin {
+    font-family: var(--font-actay-condensed-thin);
+  }
+  
+  .font-actay-condensed-thin-italic {
+    font-family: var(--font-actay-condensed-thin-italic);
+  }
+  
+  .font-actay-wide-bold {
+    font-family: var(--font-actay-wide-bold);
+  }
+  
+  .font-actay-wide-bold-italic {
+    font-family: var(--font-actay-wide-bold-italic);
+  }
+}
